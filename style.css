@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(182, 123, 51);
+    height: 60px;
+    width: 100%;
+}
+.navbar h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.adminbtn{
+    height: 50px;
+    width: 100%;
+    
+}
+.adminbtn a{
+    text-decoration: none;
+    color: brown;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 40px;
+    font-style: italic;
+
+}
+.table{
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.from{
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
