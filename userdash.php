@@ -17,7 +17,7 @@
         </div>
         <div class="adminbtn">
             <h3>
-                <a href="userlogin.php">LOGOUT</a>
+                <a href="logout.php">LOGOUT</a>
             </h3>
         </div>
     </header>
@@ -26,16 +26,15 @@
 </html>
 <?php
 
-if(isset($_POST['login']))
-{
-    $username=$_POST['uname'];
-    $password=$_POST['pass'];
+if (isset($_POST['login'])) {
+    $username = $_POST['uname'];
+    $password = $_POST['pass'];
 
 
     include('dbconnection.php');
     include('afteruserlogin.php');
 
-    showdetails($username,$password);  //using function we create
+    showdetails($username, $password);  //using function we create
 
 }
 
