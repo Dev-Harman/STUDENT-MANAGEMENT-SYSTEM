@@ -47,7 +47,10 @@ function showdetails($username, $password)
     }
     else
     {
- echo "<script>alert('Un Valid Username or Password');</script>";
+ echo "<script>
+alert('Un Valid Username or Password');
+window.open('userlogin.php', '_self');
+</script>";
     }
 }
 
