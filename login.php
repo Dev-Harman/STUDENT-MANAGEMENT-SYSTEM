@@ -66,8 +66,8 @@ if($row <1)
 {
 ?>
 <script>
-alert('Username or password doesnot match');
-window.open('index.php', '_self');
+alert('Un Valid Username or Password');
+window.open('login.php', '_self');
 </script>
 
 <?php
