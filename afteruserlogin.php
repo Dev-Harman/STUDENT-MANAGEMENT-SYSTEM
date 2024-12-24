@@ -47,9 +47,12 @@ $data=mysqli_fetch_assoc($run);
 
 <?php
     }
-    else
-    {
- echo "<script>alert('Un Valid Username or Password');</script>";
+    else {
+        // Show an alert and then redirect to user login page
+        echo "<script>
+            alert('Un Valid Username or Password');
+            window.open('userlogin.php', '_self');
+            </script>";
     }
 }
 
