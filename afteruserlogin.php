@@ -44,12 +44,10 @@ function showdetails($username, $password)
 
 
 <?php
-    } else {
-        // Show an alert and then redirect to user login page
-        echo "<script>
-            alert('Un Valid Username or Password');
-            window.open('userlogin.php', '_self');
-            </script>";
+    }
+    else
+    {
+ echo "<script>alert('Un Valid Username or Password');</script>";
     }
 }
 
